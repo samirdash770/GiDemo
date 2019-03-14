@@ -1,0 +1,5 @@
+17:31:38.277 [main] INFO  resources.base - Navigated to home page
+22:49:34.959 [main] INFO  resources.base - Invalid credential should be displayed
+22:49:41.225 [main] INFO  resources.base - Driver is initilized
+22:50:37.745 [main] INFO  resources.base - Navigated to home page
+22:51:06.536 [main] INFO  resources.base - Navigation bar is displayed

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.listeners"/>
+  </listeners>
+  <test name="validating user login(failed)">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initilize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+      <class name="Academy.homePage">
+        <methods>
+          <include name="initilize"/>
+          <include name="teardown"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Academy.homePage -->
+    </classes>
+  </test> <!-- validating user login(failed) -->
+  <test name="validating user Title in the page(failed)">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initilize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+      <class name="Academy.homePage">
+        <methods>
+          <include name="initilize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.homePage -->
+    </classes>
+  </test> <!-- validating user Title in the page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

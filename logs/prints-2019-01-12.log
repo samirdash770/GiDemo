@@ -1,0 +1,7 @@
+16:26:30.785 [main] INFO  resources.base - Driver is initilized
+16:26:41.689 [main] INFO  resources.base - Navigated to home page
+16:26:44.293 [main] INFO  resources.base - Sucessfully validated text message
+16:26:44.397 [main] INFO  resources.base - Navigation bar is displayed
+16:27:22.996 [main] INFO  resources.base - Invalid credential should be displayed
+16:27:43.815 [main] INFO  resources.base - Invalid credential should be displayed
+17:31:19.629 [main] INFO  resources.base - Driver is initilized
